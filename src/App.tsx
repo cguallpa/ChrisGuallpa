@@ -1,3 +1,12 @@
+import Message from './Message';
+
+function App(){
+  return <div><Message/></div>;
+}
+export default App;
+
+
+/*
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
@@ -24,3 +33,4 @@ function App() {
 }
 
 export default App;
+*/
