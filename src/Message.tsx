@@ -1,5 +1,6 @@
 function Message(){
     //JSX syntax for a simple message component
-    return <h1> Hello, World!</h1>;
+    const name = "Chris Guallpa";
+    return <h1>Hello, {name}!</h1>;
 }
 export default Message;
