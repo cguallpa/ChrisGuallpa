@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,59 @@
   to {
     transform: rotate(360deg);
   }
+} */
+body {
+  background: #f7fafc;
+  color: #333;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.soft-card {
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(180, 200, 220, 0.15);
+  padding: 2rem;
+  margin: 1rem auto;
+  max-width: 600px;
+}
+
+.soft-heading {
+  color: #6c63ff;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.soft-list {
+  list-style: none;
+  padding: 0;
+}
+
+.soft-list-item {
+  background: #e3eafc;
+  color: #4a5568;
+  border-radius: 8px;
+  margin-bottom: 0.5rem;
+  padding: 0.75rem 1rem;
+  transition: background 0.2s;
+  cursor: pointer;
+}
+
+.soft-list-item:hover {
+  background: #cfd8f6;
+}
+
+.soft-btn {
+  background: #a3cef1;
+  color: #333;
+  border: none;
+  border-radius: 8px;
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.soft-btn:hover {
+  background: #89c2d9;
 }

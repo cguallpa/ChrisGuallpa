@@ -1,10 +1,15 @@
+import { Children, ReactElement } from "react";
+import { ContentLayout } from "./components/Layouts/content-layout";
 import ListGroup from "./components/ListGroup";
 
-function App(){
-  return <div><ListGroup/></div>
+const handleSelctItem = (item: string) => {
+  console.log(item);
+};
+
+function App() {
+  return <ContentLayout children="" title="Chris Guallpa" />;
 }
 export default App;
-
 
 /*
 import React from 'react';
