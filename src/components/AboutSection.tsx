@@ -31,10 +31,7 @@ export const AboutSection = () => {
               >
                 Download My Resume
               </a>
-              <a
-                href="#contact"
-                className="cosmic-button w-full sm:w-auto text-center"
-              >
+              <a href="#contact" className="cosmic-button">
                 {" "}
                 Contact Me
               </a>
