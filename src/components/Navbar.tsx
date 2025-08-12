@@ -1,6 +1,7 @@
 import { cn } from "@/lib/utils";
 import { useEffect, useState } from "react";
 import { Menu, X } from "lucide-react";
+import logo from "public/logo.png";
 
 const navItems = [
   { name: "About", href: "#about" },
@@ -31,15 +32,20 @@ export const Navbar = () => {
       )}
     >
       <div className="container flex items-center justify-between">
-        <a
-          className="text-xl font-bold text-primary flex items-center"
-          href="#hero"
-        >
-          <span className="relative z-10">
-            <span className="text-glow text-foreground">Chris Guallpa</span>{" "}
-            Portfolio
+        <div className="display: flex">
+          <span className="relative z-10 inline-block">
+            <img src={logo} alt="My Dogs" className="image" />
           </span>
-        </a>
+          <a
+            className="text-xl font-bold text-primary flex items-center"
+            href="#hero"
+          >
+            <span className="relative left-0 z-20 inline-block">
+              <span className="text-glow text-foreground">Chris Guallpa</span>
+              {/* <img src={process.env.PUBLIC_URL + "/logo.png"} alt="My Dogs" /> */}
+            </span>
+          </a>
+        </div>
         {/* desktop version*/}
         <div className="hidden md:flex space-x-8">
           {navItems.map((item, key) => (
