@@ -12,7 +12,7 @@ export const Home = () => {
         <StarBackground />
         <Navbar />
         {/*Main Content*/}
-        <main>
+        <main className="py-50 sm:py-50 lg:py-0">
           <HeroSection />
           <AboutSection />
           <SkillsSection />

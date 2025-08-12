@@ -161,10 +161,14 @@
     max-width: 0px;
     max-height: 0px;
   }
-  @media (min-width: 640px) {
+  @media (min-width: 341px) {
+    max-width: 120px;
+    max-height: 120px;
+  }
+  /* @media (min-width: 640px) {
     max-width: 114px;
     max-height: 114px;
-  }
+  } */
   @media (min-width: 768px) {
     max-width: 137px;
     max-height: 137px;
